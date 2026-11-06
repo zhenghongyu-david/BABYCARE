@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv313/
+.python313/
+.pytest_cache/
+
+# Build output
+bin/
+.buildozer/
+buildozer.log
+*.apk
+*.aab
+
+# Local app data and preview artifacts
+demo_data/
+demo_art/
+.app_pid
+debug_dump.txt
+app_stdout.log
+app_stderr.log
+install*.log
+python-*.exe
+*.nupkg
+
+# Screenshot work-in-progress (final screenshots are kept)
+screenshots/*.png
+!screenshots/01_today.png
+!screenshots/02_tasks.png
+!screenshots/03_album.png
+!screenshots/04_stars.png
+!screenshots/05_task_editor.png
+!screenshots/06_photo_viewer.png
